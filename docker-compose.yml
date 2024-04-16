@@ -9,7 +9,7 @@ services:
     depends_on:
       - mongodb
     environment:
-      MONGODB_URI: "mongodb+srv://achrafthedev:hxWtyPZsQp6bFX6N@frontcluster.bhg4zjp.mongodb.net/" 
+      MONGODB_URI: ${MONGODB_URI}
     networks:
       - backend-network
 
